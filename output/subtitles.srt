@@ -1,0 +1,143 @@
+1
+00:00:01,200 --> 00:00:07,367
+Imagine a car driving along a road…
+
+2
+00:00:07,367 --> 00:00:14,633
+How do we measure its speed at one exact instant?
+
+3
+00:00:14,633 --> 00:00:20,600
+Average speed uses distance over time, but instantaneous speed needs calculus.
+
+4
+00:00:21,400 --> 00:00:28,767
+Derivatives: From Secant to Tangent
+
+5
+00:00:29,567 --> 00:00:36,733
+Consider the function f(x) equals x squared, producing a parabola.
+
+6
+00:00:37,533 --> 00:00:46,000
+Here is its graph on the Cartesian coordinate plane.
+
+7
+00:00:46,000 --> 00:00:55,267
+We choose a fixed point A at x = 2, and a neighboring point B at x = 2 + h.
+
+8
+00:00:55,267 --> 00:01:03,033
+The straight line passing through both points is called a secant line.
+
+9
+00:01:03,833 --> 00:01:11,500
+Watch what happens as point B moves progressively closer to point A.
+
+10
+00:01:12,100 --> 00:01:19,267
+With h = 2, B is at (4, 16). The average secant slope is 6.
+
+11
+00:01:19,267 --> 00:01:26,633
+With h = 1, B moves to (3, 9). The secant slope becomes 5.
+
+12
+00:01:26,633 --> 00:01:34,000
+With h = 0.5, B is at (2.5, 6.25). The slope reduces to 4.5.
+
+13
+00:01:34,000 --> 00:01:41,367
+With h = 0.1, B is at (2.1, 4.41). The secant slope is now 4.1.
+
+14
+00:01:41,367 --> 00:01:50,033
+As h approaches zero, the secant line approaches a unique limiting line: the tangent line.
+
+15
+00:01:50,033 --> 00:01:56,200
+This tangent line slope represents the instantaneous rate of change at x = 2.
+
+16
+00:01:57,000 --> 00:02:04,667
+Now let us calculate the exact derivative using the limit definition.
+
+17
+00:02:05,267 --> 00:02:14,433
+The derivative f prime of 2 is defined as the limit of [f(2+h) - f(2)] over h as h approaches 0.
+
+18
+00:02:14,433 --> 00:02:22,100
+f(2+h) is the output at 2+h, f(2) is the output at 2, and h is the interval width.
+
+19
+00:02:22,100 --> 00:02:31,167
+Step two: substitute the function f(x) = x squared into the formula.
+
+20
+00:02:31,167 --> 00:02:40,333
+Step three: expand (2+h) squared to obtain 4 + 4h + h squared.
+
+21
+00:02:40,333 --> 00:02:49,300
+Step four: the constant 4 cancels out with minus 4, leaving (4h + h squared) over h.
+
+22
+00:02:49,300 --> 00:03:01,567
+Step five: factor h from the numerator. Since h approaches zero but is never zero, we cancel h.
+
+23
+00:03:01,567 --> 00:03:12,433
+Step six: evaluate the limit as h goes to zero. 4 plus zero equals 4.
+
+24
+00:03:12,433 --> 00:03:20,100
+Therefore, the instantaneous rate of change f prime of 2 equals exactly 4.
+
+25
+00:03:20,800 --> 00:03:29,667
+Returning to the graph, let us draw the tangent line at point A(2, 4).
+
+26
+00:03:29,667 --> 00:03:36,633
+Using point-slope form: y minus y1 equals m times (x minus x1).
+
+27
+00:03:36,633 --> 00:03:44,100
+Substitute point (2, 4) and our calculated slope m = 4: y minus 4 equals 4 times (x minus 2).
+
+28
+00:03:44,100 --> 00:03:51,367
+Expanding and simplifying gives the tangent line equation: y equals 4x minus 4.
+
+29
+00:03:51,367 --> 00:03:58,333
+Blue: parabola. Green: tangent at x = 2 with slope 4.
+
+30
+00:03:58,333 --> 00:04:05,500
+The green tangent slope of 4 represents the exact instantaneous rate of change at x = 2.
+
+31
+00:04:06,300 --> 00:04:10,767
+To summarize our three core takeaways from this lesson:
+
+32
+00:04:10,767 --> 00:04:16,533
+First: a secant line connects two distinct points on a curve, measuring average rate of change.
+
+33
+00:04:16,533 --> 00:04:22,300
+Second: a tangent line touches at a single point, representing the instantaneous rate of change.
+
+34
+00:04:22,300 --> 00:04:28,067
+Third: the derivative is the limiting value of the secant slopes as the interval h approaches zero.
+
+35
+00:04:28,067 --> 00:04:34,033
+For f(x) = x squared at x = 2, our derivative f prime of 2 is 4.
+
+36
+00:04:34,833 --> 00:04:42,200
+Thank you for watching this M3 Linear Algebra and Calculus presentation.

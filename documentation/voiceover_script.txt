@@ -1,0 +1,84 @@
+==================================================================
+M3 MATHEMATICS EDUCATIONAL ANIMATION — SYNCHRONIZED VOICEOVER SCRIPT
+Topic: Derivative and Rate of Change – From Secant Line to Tangent Line
+Target Duration: ~4:45 | Resolution: 1080p | FPS: 30
+==================================================================
+
+INSTRUCTIONS FOR VOICEOVER RECORDING:
+- Speak naturally, clearly, and at a calm, educational pace.
+- Follow the exact timestamps below for perfect video synchronization.
+- Each numbered dialogue matches the on-screen visual and burned-in subtitles.
+
+------------------------------------------------------------------
+
+[00:01 - 00:07] (1) Imagine a car driving along a road…
+
+[00:07 - 00:14] (2) How do we measure its speed at one exact instant?
+
+[00:14 - 00:20] (3) Average speed uses distance over time, but instantaneous speed needs calculus.
+
+[00:21 - 00:28] (4) Derivatives: From Secant to Tangent
+
+[00:29 - 00:36] (5) Consider the function f(x) equals x squared, producing a parabola.
+
+[00:37 - 00:46] (6) Here is its graph on the Cartesian coordinate plane.
+
+[00:46 - 00:55] (7) We choose a fixed point A at x = 2, and a neighboring point B at x = 2 + h.
+
+[00:55 - 01:03] (8) The straight line passing through both points is called a secant line.
+
+[01:03 - 01:11] (9) Watch what happens as point B moves progressively closer to point A.
+
+[01:12 - 01:19] (10) With h = 2, B is at (4, 16). The average secant slope is 6.
+
+[01:19 - 01:26] (11) With h = 1, B moves to (3, 9). The secant slope becomes 5.
+
+[01:26 - 01:33] (12) With h = 0.5, B is at (2.5, 6.25). The slope reduces to 4.5.
+
+[01:33 - 01:41] (13) With h = 0.1, B is at (2.1, 4.41). The secant slope is now 4.1.
+
+[01:41 - 01:50] (14) As h approaches zero, the secant line approaches a unique limiting line: the tangent line.
+
+[01:50 - 01:56] (15) This tangent line slope represents the instantaneous rate of change at x = 2.
+
+[01:56 - 02:04] (16) Now let us calculate the exact derivative using the limit definition.
+
+[02:05 - 02:14] (17) The derivative f prime of 2 is defined as the limit of [f(2+h) - f(2)] over h as h approaches 0.
+
+[02:14 - 02:22] (18) f(2+h) is the output at 2+h, f(2) is the output at 2, and h is the interval width.
+
+[02:22 - 02:31] (19) Step two: substitute the function f(x) = x squared into the formula.
+
+[02:31 - 02:40] (20) Step three: expand (2+h) squared to obtain 4 + 4h + h squared.
+
+[02:40 - 02:49] (21) Step four: the constant 4 cancels out with minus 4, leaving (4h + h squared) over h.
+
+[02:49 - 03:01] (22) Step five: factor h from the numerator. Since h approaches zero but is never zero, we cancel h.
+
+[03:01 - 03:12] (23) Step six: evaluate the limit as h goes to zero. 4 plus zero equals 4.
+
+[03:12 - 03:20] (24) Therefore, the instantaneous rate of change f prime of 2 equals exactly 4.
+
+[03:20 - 03:29] (25) Returning to the graph, let us draw the tangent line at point A(2, 4).
+
+[03:29 - 03:36] (26) Using point-slope form: y minus y1 equals m times (x minus x1).
+
+[03:36 - 03:44] (27) Substitute point (2, 4) and our calculated slope m = 4: y minus 4 equals 4 times (x minus 2).
+
+[03:44 - 03:51] (28) Expanding and simplifying gives the tangent line equation: y equals 4x minus 4.
+
+[03:51 - 03:58] (29) Blue: parabola. Green: tangent at x = 2 with slope 4.
+
+[03:58 - 04:05] (30) The green tangent slope of 4 represents the exact instantaneous rate of change at x = 2.
+
+[04:06 - 04:10] (31) To summarize our three core takeaways from this lesson:
+
+[04:10 - 04:16] (32) First: a secant line connects two distinct points on a curve, measuring average rate of change.
+
+[04:16 - 04:22] (33) Second: a tangent line touches at a single point, representing the instantaneous rate of change.
+
+[04:22 - 04:28] (34) Third: the derivative is the limiting value of the secant slopes as the interval h approaches zero.
+
+[04:28 - 04:34] (35) For f(x) = x squared at x = 2, our derivative f prime of 2 is 4.
+
+[04:34 - 04:42] (36) Thank you for watching this M3 Linear Algebra and Calculus presentation.
